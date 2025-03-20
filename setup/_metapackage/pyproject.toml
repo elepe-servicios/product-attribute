@@ -1,18 +1,24 @@
 [project]
 name = "odoo-addons-oca-product-attribute"
-version = "17.0.20250127.0"
+version = "17.0.20250320.0"
 dependencies = [
     "odoo-addon-product_category_active>=17.0dev,<17.1dev",
     "odoo-addon-product_category_code>=17.0dev,<17.1dev",
+    "odoo-addon-product_category_product_link>=17.0dev,<17.1dev",
     "odoo-addon-product_code_mandatory>=17.0dev,<17.1dev",
     "odoo-addon-product_code_unique>=17.0dev,<17.1dev",
+    "odoo-addon-product_cost_security>=17.0dev,<17.1dev",
     "odoo-addon-product_dimension>=17.0dev,<17.1dev",
     "odoo-addon-product_document_domain>=17.0dev,<17.1dev",
     "odoo-addon-product_logistics_uom>=17.0dev,<17.1dev",
+    "odoo-addon-product_lot_sequence>=17.0dev,<17.1dev",
     "odoo-addon-product_main_supplierinfo>=17.0dev,<17.1dev",
     "odoo-addon-product_manufacturer>=17.0dev,<17.1dev",
+    "odoo-addon-product_multi_category>=17.0dev,<17.1dev",
     "odoo-addon-product_net_weight>=17.0dev,<17.1dev",
     "odoo-addon-product_packaging_dimension>=17.0dev,<17.1dev",
+    "odoo-addon-product_packaging_level>=17.0dev,<17.1dev",
+    "odoo-addon-product_packaging_level_salable>=17.0dev,<17.1dev",
     "odoo-addon-product_pricelist_fixed_currency_rate>=17.0dev,<17.1dev",
     "odoo-addon-product_pricelist_item_list_view>=17.0dev,<17.1dev",
     "odoo-addon-product_pricelist_revision>=17.0dev,<17.1dev",
